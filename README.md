@@ -6,13 +6,27 @@ This project demonstrates a custom 2-layer PCB containing the ATmega-4809 microc
 
 ## Components
 
-1. Microcontroller: 
+1. Microcontroller: ATmega4809
+   - 6 KB SRAM and 48 MB Flash
+   - 20 MHz clock speed 
    
-2. USB Connectivity:
+3. USB Connectivity:
+   - USB Type-C for data and power 
+   - USBLC6-2SC6 for ESD protection
 
-3. Power Supply: 
+4. Power Supply: LM3670MF-3.3 
+   - Voltage regulator for stable 3.3V output
   
-4. Headers:
+5. Headers:
+   - UPDI header for debugging
+   - GPIO, I2C, SPI and USART headers for external connections
+
+6. Memory: AT24CS32-STUM
+   - 32 Kbit of EEPROM storage
+   - Non-volatile memory storage expansion
+
+8. Sensor: TC1047xNB
+   - Analog voltage output, propotional to temperature
 
 ## Disclaimer
 
@@ -34,11 +48,11 @@ Below is a 3D render of the PCB design:
 ## How to Use
 
 1. Power the board
-
-   
+   - Use a USB Type-C cable to power the board.
+     
 2. Microcontroller Programming:
-
+   - Use Arduino IDE or any other platform to program the microcontroller.
+   - Use a debugger with a UPDI header.
 
 3. Peripheral Access
-
-
+   - Use the GPIO, I2C, SPI and USART headers to connect peripherals.
