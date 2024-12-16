@@ -28,7 +28,8 @@ The board was designed using KiCad. Files from the PCB design can be found in th
 - Assembly files
 
 Below is a 3D render of the PCB design:
-![TheXeric](https://github.com/user-attachments/assets/6869c1d8-6dae-4c67-80d6-49d396edd676)
+![TheXeric](https://github.com/user-attachments/assets/86625cc1-c385-4df6-80d2-8668946ecf00)
+
 
 ## How to Use
 
