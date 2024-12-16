@@ -2,7 +2,7 @@
 
 ## Description
 
-This project demonstrates a custom 2-layer PCB containing the ESP32-S3-Mini microcontroller. This board can be used for embedded development or IoT applications using multiple peripherals.
+This project demonstrates a custom 2-layer PCB containing the ATmega-4809 microcontroller. This board can be used for embedded development applications using multiple peripherals.
 
 ## Components
 
